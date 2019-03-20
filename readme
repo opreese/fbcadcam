@@ -1,2 +1,4 @@
 fbcadcam.com
 open source cad cam program
+compiles with fbc (freebasic.net)
+uses GTK3 for the gui.
