@@ -1,0 +1,72 @@
+Declare Function find_delimeter(temp As String,delimiter As String) As Integer
+Declare Function find_close_prin(temp As String) As Integer
+Declare Function evaluate_string_numeric_expression(temp As String) As String
+Declare Function evaluate_condition(expression As String) As BOOLEAN
+Declare Function full_evaluate_expression(expression As String) As String
+Declare Function keyword_commands_block(block_i As Integer, block_c As Integer, block_temp As String, block_temps() As String) As Integer
+Declare Function cleanupthestring(temp As String) As String
+Declare Function func_value(func_text As String) As String
+Declare Function get_multi_dim_array_type_s2(s2 As String,i As Integer,stemp_n() As Integer,j As Integer,variables_x() As Integer,closeprin_x As Integer) As String
+Declare Function get_1d_array_type_s2(s2 As String,i As Integer,stemp As String,j As Integer,variables_x() As Integer,closeprin_x As Integer) As String
+Declare Function parse(temp As String) As String
+
+Declare Sub init_fbcadcam_macro()
+Declare Sub import_macro_bas_file(macro_bas As String)
+Declare Sub keyword_dim(temp As String)
+Declare Sub dim_boolean(temp As String)
+Declare Sub dim_byte(temp As String)
+Declare Sub dim_ubyte(temp As String)
+Declare Sub dim_short(temp As String)
+Declare Sub dim_ushort(temp As String)
+Declare Sub dim_long(temp As String)
+Declare Sub dim_ulong(temp As String)
+Declare Sub dim_integer(temp As String)
+Declare Sub dim_uinteger(temp As String)
+Declare Sub dim_longint(temp As String)
+Declare Sub dim_ulongint(temp As String)
+Declare Sub dim_single(temp As String)
+Declare Sub dim_double(temp As String)
+Declare Sub dim_string(temp As String)
+Declare Sub dim_boolean_array(variable_number As Integer,c As Integer,temp As String,temps() As String)
+Declare Sub dim_byte_array(variable_number As Integer,c As Integer,temp As String,temps() As String)
+Declare Sub dim_ubyte_array(variable_number As Integer,c As Integer,temp As String,temps() As String)
+Declare Sub dim_short_array(variable_number As Integer,c As Integer,temp As String,temps() As String)
+Declare Sub dim_ushort_array(variable_number As Integer,c As Integer,temp As String,temps() As String)
+Declare Sub dim_long_array(variable_number As Integer,c As Integer,temp As String,temps() As String)
+Declare Sub dim_ulong_array(variable_number As Integer,c As Integer,temp As String,temps() As String)
+Declare Sub dim_integer_array(variable_number As Integer,c As Integer,temp As String,temps() As String)
+Declare Sub dim_uinteger_array(variable_number As Integer,c As Integer,temp As String,temps() As String)
+Declare Sub dim_longint_array(variable_number As Integer,c As Integer,temp As String,temps() As String)
+Declare Sub dim_ulongint_array(variable_number As Integer,c As Integer,temp As String,temps() As String)
+Declare Sub dim_single_array(variable_number As Integer,c As Integer,temp As String,temps() As String)
+Declare Sub dim_double_array(variable_number As Integer,c As Integer,temp As String,temps() As String)
+Declare Sub dim_string_array(variable_number As Integer,c As Integer,temp As String,temps() As String)
+Declare Sub keyword_let(temp As String)
+Declare Sub keyword_print(temp As String)
+Declare Sub keyword_for(for_temps() As String,for_temp_c As Integer)
+Declare Sub keyword_line(temp As String)
+Declare Sub keyword_circle(temp As String)
+Declare Sub variable_array_manager(variable_number As Integer)
+Declare Sub keyword_randomize(temp As String)
+Declare Sub keyword_commands(temp As String)
+Declare Sub keyword_if(if_temps() As String,if_temp_c As Integer)
+Declare Sub keyword_do(do_temps() As String,do_temp_c As Integer)
+Declare Sub keyword_select(select_temps() As String,select_temp_c As Integer)
+Declare Sub rename_sub_variables(filename As String,prepend As String,has_passed_variables As BOOLEAN)
+Declare Sub rename_function_variables(filename As String,prepend As string,has_passed_variables As BOOLEAN)
+Declare Sub keyword_redim(temp As String)
+Declare Sub getparts(temp As String)
+Declare Sub clear_sub_function_variables(temp As String)
+Declare Sub copy_array(a As Integer,array_index As String)
+Declare Sub keyword_move(temp As String)
+Declare Sub keyword_copy(temp As String)
+Declare Sub keyword_rotate(temp As String)
+Declare Sub keyword_copy_rotate(temp As String)
+Declare Sub keyword_flip_vertical(temp As String)
+Declare Sub keyword_flip_horizontal(temp As String)
+Declare Sub keyword_flip_both(temp As String)
+Declare Sub keyword_copy_flip_vertical(temp As String)
+Declare Sub keyword_copy_flip_horizontal(temp As String)
+Declare Sub keyword_copy_flip_both(temp As String)
+Declare Sub keyword_text(temp As String)
+
